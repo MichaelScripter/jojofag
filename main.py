@@ -311,4 +311,4 @@ async def on_message(message):
     create_acc(message.author)
     await client.process_commands(message)
 
-client.run("MTAzMTIwNTQwMDkxOTQxNjg4Mg.G75-vM.gXu363x_TsfHzeeNh338cPlEB4XmKYsY-gB7OI")
+client.run(token)
